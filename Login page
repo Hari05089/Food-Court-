@@ -1,0 +1,21 @@
+# Initialize new repository
+git init
+
+# Check current status
+git status
+
+# Create a new file
+echo "# TCE FOOD COURT" >> README.md
+
+# Stage the new file
+git add README.md
+
+# Commit the staged files
+git commit -m "Initial commit with README.md"
+
+# Add remote repository
+git remote add origin https://github.com/yourusername/tce-food-court.git
+
+# Push the code to the remote repository
+git push -u origin master
+
